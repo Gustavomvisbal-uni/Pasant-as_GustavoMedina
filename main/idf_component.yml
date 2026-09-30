@@ -1,0 +1,23 @@
+dependencies:
+  espressif/mqtt:
+    version: '*' 
+  esp-idf-lib/dht:
+    version: '*'
+  esp-idf-lib/esp_idf_lib_helpers:
+    version: '*'
+  espressif/led_strip:
+    version: '*'
+  espressif/ds18b20:
+    version: "0.4.0"
+  espressif/onewire_bus:
+    version: "^1.0.0"
+  joltwallet/littlefs:
+    version: "1.22.2"
+  microlink:
+    git: https://github.com/camm2325/microlink.git
+    path: components/microlink
+  wireguard_lwip:
+    git: https://github.com/camm2325/microlink.git
+    path: components/microlink/components/wireguard_lwip
+description: default
+version: 1.0.0
